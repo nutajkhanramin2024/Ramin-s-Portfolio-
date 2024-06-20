@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #01051c;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a {
+  font-size: large;
+}
+#red:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+#r:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+#About:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+#ser:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+#con:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+#works:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+#a:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+}
+.profile-div {
+  background-color: #ff3838;
+  color: rgb(253, 253, 253);
+  height: 500px;
+  width: 800px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 100px;
+  padding-top: 50px;
+  box-shadow: #ff3838;
+}
+.large-text {
+  font-size: 300%;
+}
+.small-text {
+  font-size: 20px;
+}
+.download-cv {
+  height: 45px;
+  width: 180px;
+  border-bottom-left-radius: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+}
+.download-cv:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.pic img {
+  margin-left: 350px;
+  height: 450px;
+  width: 500px;
+  border-radius: 40px;
+}
+.follow {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+#follow-me {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#Facebook {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.line {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#Linkdin {
+  color: red;
+  cursor: pointer;
+}
+#Instragrame {
+  cursor: pointer;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  height: 400px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.content-table thead tr {
+  background-color: #ff3838;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  height: 100px;
+}
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #ffffff;
+  height: 100px;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #ff0000;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #ffffff;
+}
+
+.content-table tbody td tr.active-row {
+  font-weight: bold;
+  color: rgb(255, 251, 251);
+}
+.options {
+  text-align: center;
+  color: #ff3838;
+  margin-top: 100px;
+}
+.def {
+  text-align: center;
+}
+#services {
+  text-align: center;
+}
+#contact-form {
+  color: black;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+#contact-form h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#contact-form button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#contact-form button:hover {
+  background: #0056b3;
+}
+#contact-form {
+  background: #01051c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  width: 900px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#contact-form h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+  text-align: center;
+  color: red;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: red;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #171836;
+  color: #01051c;
+}
+.contact-form button {
+  background: red;
+  color: #01051c;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#contact-form button:hover {
+  background-color: red;
+}
+.side-div {
+  height: 200px;
+  width: 700px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+.con {
+  display: flex;
+  background-color: #011327;
+}
+
+@media screen and (max-width: 720px) {
+  .fa-solid fa-bars {
+    display: block;
+  }
+}
